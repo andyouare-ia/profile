@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono:wght@300;400;700");
+
+/* --- main setup --- */
+
+html {
+  background-color: #fff;
+  color: #332900;
+  font-family: 'Cutive Mono', monospace;
+  text-align: center;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  color: #85C88A;
+  font-size: 24px;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card-white {
+  background-color: #fff;
+  padding: 30px;
+  margin: 15 auto;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+/* --- images --- */
+
+.img-circle {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin: 15 auto;
+}
+
+i {
+  color: rgba(51, 41, 0, .3);
+}
+
+i:hover {
+  color: #f1c40f;
+}
+
+/* --- links --- */
+
+a.yellow-link,
+a.yellow-link:visited {
+  color: #332900;
+  text-decoration: none;
+  border-bottom: 1px solid #f1c40f;
+  padding: 0 1px 0;
+  margin: 0 -1px 0;
+}
+
+a.yellow-link:active,
+a.yellow-link:hover {
+  background-color: rgba(241, 196, 15, 0.40);
+  border-bottom-width: 2px;
+  margin-bottom: -1px;
+  transition: background-color 0.2s, border-bottom-width 0.2s;
+}
+
+/* --- buttons --- */
+
+.btn-green {
+  background-color: #85C88A;
+  color: white;
+  text-decoration: none;
+  padding: 8px 24px;
+  border-radius: 4px;
+}
+
+.btn-green:hover {
+  background-color: hsl(124, 26%, 47%);
+  color: white;
+}
+
+/* --- lists --- */
+
+.list-in-line {
+  list-style: none;
+  padding: 0;
+}
+
+.list-in-line li {
+  display: inline-block;
+  margin: 10px;
+}
